@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>AvaLance WP Documentation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="AvaLance WP Documentation">
+        <meta name="author" content="ErikTailor">
+    
+        <!-- loading the css -->
+        <link href="assets/css/bootstrap.css" rel="stylesheet">
+        <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+        <link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+        
+		<style type="text/css">
+        body {padding-bottom: 40px;}
+		
+		section {padding: 60px 0 0 0;}
+		
+		.desc-img {border: 1px solid #eee;}
+        </style>
+        
+        <!--[if lt IE 9]>
+          <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+    
+        <!-- Various Icons (Favicon, Touch Icon,... -->
+        <link rel="shortcut icon" href="assets/img/favicon.ico">
+        <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/img/apple-touch-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/img/apple-touch-icon-114x114.png">
+        
+    </head>
+    
+    
+        
+    <body data-spy="scroll" data-target=".navbar" id="top">
+    
+        <!-- ========================= NAVIGATION BAR >> START ========================= -->
+        <div class="navbar navbar-fixed-top navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a> 
+                    <a class="brand" href="#overview">AvaLance WP Documentation</a><!-- TIP: Change this for the name of your file -->
+                    <div class="nav-collapse">
+                        <ul class="nav">
+                            <li><a href="#overview">Overview</a></li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Getting Started<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+								   <li><a href="#installion">Installion</a></li>
+								   <li><a href="#activate-theme-options">Activate Theme Options</a></li>
+								   <li><a href="#activate-plugins">Activate Plugins</a></li>	
+								   <li><a href="#import-demo-content">Import Demo Content</a></li>	
+								   <li><a href="#set-up-home-page">Set Up Home Page</a></li>	   
+								</ul>
+							</li>
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Theme Options<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+								   <li><a href="#general-options">General Options</a></li>
+								   <li><a href="#set-up-slider">Set Up Slider</a></li>
+								   <li><a href="#set-up-header">Set Up Header</a></li>
+								   <li><a href="#set-up-our-team">Set Up Our Team</a></li>	
+								   <li><a href="#set-up-call-to-action-bar">Set Up Call To Action Bar</a></li>	
+								   <li><a href="#set-up-testimonials">Set Up Testimonials</a></li>	
+								   <li><a href="#set-up-pricing">Set Up Pricing</a></li>
+								   <li><a href="#set-up-contact">Set Up Contact</a></li>
+								   <li><a href="#set-up-footer">Set Up Footer</a></li>								   
+								</ul>
+							</li>							
+							<li>
+								<a href="#portfolio">Set Up Portfolio<span class="caret"></span></a>
+							</li>	
+							<li class="dropdown">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Content Editing<span class="caret"></span></a>
+								<ul class="dropdown-menu">
+								   <li><a href="#creating-pages">Creating Pages</a></li>
+								   <li><a href="#shortcodes">Shortcodes</a></li>
+								   <li><a href="#menus">Menus</a></li>								   
+								</ul>
+							</li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- ========================= NAVIGATION BAR >> END ========================= -->
+    
+    
+    
+        <!-- ========================= MAIN CONTAINER >> START ========================= -->
+        <div class="container">
+        
+            <!-- ========================= SECTION: OVERVIEW >> START ========================= -->
+            <section id="overview">
+            
+                <div class="hero-unit">
+                    <h1>AvaLance WP Documentation</h1>
+					<br />
+                    <p class="well well-small">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/stephanus168">here</a>. Thanks so much!</p>
+                    <div class="row-fluid">
+                        <div class="span3"><a href="http://themeforest.net/user/stephanus168#contact" class="btn btn-primary btn-large btn-block">Item Support</a></div>
+                        <div class="span3"><a href="#changelog" role="button" class="btn btn-success btn-large btn-block" data-toggle="modal">Changelog</a></div>
+                        <div class="span3"><a href="#credits" role="button" class="btn btn-info btn-large btn-block" data-toggle="modal">Credits</a></div>
+                    </div>
+    
+                </div>
+                
+                <hr>
+                
+                <div class="row-fluid">
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Author:</td>
+                                <td>ErikTailor</td>
+                            </tr>
+                            <tr>
+                                <td>Designer:</td>
+                                <td>Stephanus168</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Author URL:</td>
+                                <td><a href="http://themeforest.net/user/eriktailor">themeforest.net/eriktailor</a></td>
+                            </tr>
+                            <tr>
+                                <td>Item URL:</td>
+                                <td><a href="#nowhere">themeforest.net/avalance-wp</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Current Version:</td>
+                                <td>1.0.0</td>
+                            </tr>
+                            <tr>
+                                <td>Documentation Version</td>
+                                <td>1.0.0</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="span3">
+                        <table width="100%">
+                            <tr>
+                                <td>Created:</td>
+                                <td>2013-11-10</td>
+                            </tr>
+                            <tr>
+                                <td>Modified:</td>
+                                <td>2013-11-10</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                <hr>
+                
+            </section>
+            <!-- ========================= SECTION: OVERVIEW >> END ========================= -->
+
+
+          
+            <!-- ========================= SECTION: MARKUP >> START ========================= -->
+            <section id="getting-started">
+                <div class="page-header">
+                    <h1>Getting Started</h1>
+                </div>
+            
+
+				<div class="alert alert-success"> <a class="close" data-dismiss="alert">×</a>I assume you have your own wordpress installion, so let's get started!</div>
+
+
+				<hr />
+				
+				
+                <div class="row" id="installion">
+				
+					<div class="span12">
+                        <h3>Installion</h3>
+                        <p>You can install the theme in two ways:</p>
+						<ol>
+						<li>FTP Upload: Unzip the “avalance-theme.zip” file and upload the contents to the /wp-content/themes folder on your server.</li>
+						<li>Wordpress Upload: Navigate to Appearance <strong>&gt;</strong> Install Themes <strong>&gt;</strong> Upload. Select the zipped theme folder. 
+						Hit <span class="label label-info">Install Now</span> and the theme will be uploaded and installed.</li>
+						</ol>
+						<br />
+					</div>
+					
+				</div>
+				
+                <div class="row">
+                    <div class="span3">
+						<hr />
+                        <p> When your theme has been installed successfully, hit <span class="label label-primary">Activate</span> to get it work.</p>
+                    </div>
+                    <div class="span9"> 
+						<br />
+						<img class="desc-img" src="assets/img/01.jpg" />
+                    </div>
+                </div>
+            
+                <hr />
+            
+                <div class="row" id="activate-theme-options">
+                    <div class="span3">
+                        <h3>Activate Theme Options</h3>
+                        <p>When your newly uploaded theme has been activated, you will notice that a new submenu item <strong>Theme Options</strong> appeared under the <strong>Appearance</strong> menu. Open it, then hit <span class="label label-info">Save Changes</span>.</p>
+                    </div>
+                    <div class="span9">
+						<br />
+						<img class="desc-img" src="assets/img/02.jpg" />                
+                    </div>
+                </div>
+				
+				<br />
+				<hr />
+				
+                <div class="row" id="activate-plugins">
+                    <div class="span3">
+                        <h3>Activate Plugins</h3>
+                        <p>At the top of your admin, you see a large yellow notice to activate AvaLance's required plugins.</p> 
+						
+						<p>Hit <span class="label label-info">Begin Install</span> and when it is successfully installed, navigate to Plugins <strong>&gt;</strong> Installed Plugins and activate the newly installed <strong>AvaLance Portfolio Post Type </strong>plugin.</p>
+                    </div>
+                    <div class="span9">
+						<br />
+						<img class="desc-img" src="assets/img/03.jpg" />                
+                    </div>
+                </div>
+				
+
+				<br />
+				<hr />
+				
+                <div class="row" id="import-demo-content">
+                    <div class="span12">
+                        <h3>Import Demo Content</h3>
+                        <p>If you would like to have the same content like in AvaLance's live preview, you need to import demo content. To do that, navigate to Tools <strong>&gt;</strong> Import <strong>&gt;</strong> Wordpress, then select Extras/Import/avalance-demo-content.xml from the main theme folder. On the next page, check <strong>Download and import file attachments</strong> option and hit <span class="label label-info">Submit</span>.</p>
+						
+						<p>If your import was successfull, go to Appearance <strong>&gt;</strong> Menus and in the <strong>Menu settings</strong> select <span class="label label-primary">Top primary menu</span> and hit <span class="label label-info">Save Menu</span>.</p>
+						
+						<p>Finally go to Appearance <strong>&gt;</strong> Options Backup and copy paste the content of <strong>avalance-theme-options.txt</strong> from the <em>Extras/Import</em> folder in the download then click <span class="label label-info">Import Theme Options</span>.</p>
+						<br />
+						<div class="alert alert-info"> <b>Note:</b> The photos from the live preview are shown as grey blank images, they not included with the download as they are copyrighted files from ShutterStock. </div>						
+                    </div>
+                </div>				
+
+				<hr />				
+				
+                <div class="row" id="set-up-home-page">
+                    <div class="span12">
+                        <h3>Set Up Home Page</h3>
+						<ul>
+                        <li>First go to Pages <strong>&gt;</strong> Add New and create a basic page called <em>Home</em> or anything you like, and select page template <strong>Home</strong> on the right. </li>
+						<!--<li>Create another basic page with no content and no template, name it <em>Blog</em>.</li>-->
+						<li>Go to Settings <strong>&gt;</strong> Reading and in the Front Page Displays select <strong>Static Page</strong> then select your newly created page <em>Home</em></li>
+						</ul>
+
+						<p>Next go to Settings <strong>&gt;</strong> Permalinks and select <strong>Post Name</strong> and hit <span class="label label-info">Save Changes</span></p>
+						
+						<br />
+						<div class="alert alert-info"> <b>Note:</b> The photos from the live preview are shown as grey blank images, they not included with the download as they are copyrighted files from ShutterStock. </div>						
+                    </div>
+                </div>				
+				
+				<hr />
+		
+            </section>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+            <!-- ========================= SECTION: MARKUP >> END ========================= -->
+            
+
+
+            <!-- ========================= SECTION: STYLES >> START ========================= -->
+            <section id="theme-options">
+                <div class="page-header">
+                    <h1>Theme Options</h1>
+                </div>
+				
+
+				<div class="alert alert-success"> <a class="close" data-dismiss="alert">×</a>Navigate to Appearance <strong>&gt;</strong> Theme Options to set a lot of cool stuff for the theme and edit parts of the main content.</div>
+
+				
+				<hr />
+            
+			
+                <div class="row" id="general-options">
+                    <div class="span3">
+                        <h3>General Options</h3>
+                        <p>Here you can upload your logo and favicon for your site, and set the color scheme and the 404 text what will show up on 404 error pages.</p> 
+					
+                    </div>
+                    <div class="span9">
+						<br />
+						<img class="desc-img" src="assets/img/05.jpg" />                
+                    </div>
+
+                </div>
+				
+				<br />
+
+				
+				<hr />
+				
+			
+                <div class="row" id="set-up-slider">
+					<div class="span12">
+						<h3>Set Up Slider</h3>
+						<p>First you need to enable the slider, go to Appearance <strong>&gt;</strong> Theme Options <strong>&gt;</strong> Slider and check the <strong>Display Slider</strong>. Below you can select a pattern overlay for the slider images if you want.</p>
+						<p>To add slides, click the <span class="label label-info">Add New</span> button below <strong>Slides</strong>.</p>
+						<br />
+						<img class="desc-img" src="assets/img/04.jpg" />
+						<br /><br />
+						<p>Create your slides using the picture above as a reference. You can add as many slides as you want, but it is recommended to keep under 3-4 slides to avoid longer page loading. When you are ready with your slides, click <span class="label label-info">Save Changes</span> and now you can see your slides by visiting the home page.</p>
+						<p><strong>If you don't want a slider just a static image as a background, just upload one slide.</strong></p>
+						<div class="alert alert-info"> <b>Note:</b> For the best result, please upload images for slides in a 2000x1330px size.</div>
+					</div>
+                </div>
+				
+				<hr />
+            
+                <div class="row" id="set-up-header">
+					<div class="span12">
+                        <h3>Set Up Header</h3>
+                        <p>Go to Appearance <strong>&gt;</strong> Theme Options <strong>&gt;</strong> Header and you can do a lot of cool stuff here to customize your header.</p><p> If you don't need one of the features (e.g. header logo) just leave it empty.<p>					
+						<img class="desc-img" src="assets/img/07.jpg" />  
+						
+					</div>
+                    <div class="span3">
+						<br />
+                        <p>After filling the fields with your needed contents just hit <span class="label label-info">Save changes</span> .</p> 						
+                    </div>
+                    <div class="span9">
+						<br />
+						<img class="desc-img" src="assets/img/06.jpg" />                
+                    </div>
+					<br />
+                </div>
+				
+				<br />
+				<hr />
+				
+              <div class="row" id="set-up-includes">
+					<div class="span12">
+                        <h3>Set Up Our Team</h3>
+						<ol>
+						<li>First you need to create a new page at Pages <strong>&gt;</strong> Add New and set the page <strong>Template</strong> to <span class="label label-primary">Our Team</span>. The title will show up as the section's title, and you can add content if you wish.</li>
+						<li>Next to Appearance <strong>&gt;</strong> Theme Options <strong>&gt;</strong> Our Team and click <span class="label label-info">Add New</span> then fill the icon box with your details. It is optional to use with 4 team members.</li>
+						<ol>
+						<br />
+						<img class="desc-img" src="assets/img/08.jpg" />  
+						<p>You can use the options below as a reference. If you're ready with adding your members, just hit <span class="label label-info">Save Changes</span> and for now you'll see the team members on your site.</p>
+						<img class="desc-img" src="assets/img/09.jpg" />  
+					</div>
+                </div>
+				
+
+				<br />
+				<hr />
+				<br />
+				
+				
+                <div class="row" id="set-up-call-to-action-bar">
+					<div class="span12">
+                        <h3>Set Up Our Process</h3>
+						<ol>
+						<li>First you need to create a new page at Pages <strong>&gt;</strong> Add New and set the page <strong>Template</strong> to <span class="label label-primary">Our Process</span>. The title will show up as the section's title, and you can add content if you wish.</li>
+						<li>Next go to Appearance <strong>&gt;</strong> Theme Options <strong>&gt;</strong> Our Process, upload a background image for this section, then click <span class="label label-info">Add New</span> to create new process part and fill the icon box with your details. It is optional to use 4 process parts.</li>
+						<ol>
+					</div>
+                    <div class="span3">
+						<br />
+						<p>For the description image it's optional to upload a 156x156px image.</p>
+                        <p>The custom flat icon are included with the theme in the additional color schemes, feel free to use them in your design too. You can find them in the Extras/Icons folder in the main download.</p> 						
+                    </div>
+                    <div class="span9">
+						<br />
+						<img class="desc-img" src="assets/img/10.jpg" />                
+                    </div>
+					<br />						
+					<br />
+                </div>
+
+
+
+				<br />
+				<hr />
+				<br />
+
+				
+				
+                <div class="row" id="set-up-testimonials">
+					<div class="span12">
+                        <h3>Set Up Services &amp; Testimonials</h3>
+						<ol>
+						<li>First you need to create a new page at Pages <strong>&gt;</strong> Add New and set the page <strong>Template</strong> to <span class="label label-primary">Our Services</span>. The title will show up as the section's title, and you can add content if you wish.</li>
+						<li>Next go to Appearance <strong>&gt;</strong> Theme Options <strong>&gt;</strong> Our Services and click <span class="label label-info">Add New</span> below the <strong>Service Boxes</strong> or the <strong>Testimonials</strong> then fill the icon box with your details. For service boxes it's optional to use 3 of them, while testimonials you can add as many as you want.</li>
+						<ol>	
+						<br />						
+						<img class="desc-img" src="assets/img/11.jpg" /> 
+					</div>
+					<br />						
+					<br />
+                </div>
+
+
+
+				<br />
+				<hr />
+				<br />
+                
+
+				
+                <div class="row" id="set-up-contact">
+					<div class="span12">
+						<h3>Set Up Contact &amp; Offices</h3>
+						<ol>
+						<li>First you need to create a new page at Pages <strong>&gt;</strong> Add New and set the page <strong>Template</strong> to <span class="label label-primary">Contact</span>. The title will show up as the section's title, and you can add content if you wish.</li>
+						<li>Next go to Appearance <strong>&gt;</strong> Theme Options <strong>&gt;</strong> Contact and add the hit <span class="label label-info">Add New</span> beside the <strong>Contact Details</strong> section. It's optional to use three of them regarding the layout. After saving, they can be reordered with drag and drop features.</li>
+						<ol>	
+						<br />
+						<img class="desc-img" src="assets/img/13.jpg" />
+						<br /><br />
+						
+						<p>If you need the offices layout too, just fill the <strong>Offices</strong> details below <strong>Contact Details</strong> and your map and details will appear under the contact details. If you need just one map, leave blank the other fields.</p>
+						<img class="desc-img" src="assets/img/14.jpg" />
+					</div>
+                </div>				
+				<div class="alert alert-info"> <b>Note:</b> For the best result, please upload images for the maps in 460x305px size.</div>
+				
+				
+				<br />
+				<hr />
+				<br />				
+				
+
+                <div class="row" id="set-up-contact">
+					<div class="span12">
+						<h3>Set Up Footer</h3>
+						<ol>
+						<li>Go to Appearance <strong>&gt;</strong> Theme Options <strong>&gt;</strong> Footer and add your <strong>copyright text</strong> and social network links then finally hit <span class="label label-info">Save Changes</span></li>
+						</ol>						
+						<br />
+						<img class="desc-img" src="assets/img/15.jpg" />
+
+					</div>
+                </div>				
+				
+				
+				<br />
+				<hr />
+				<br />
+
+	
+			
+
+            </section>
+            <!-- ========================= SECTION: STYLES >> END ========================= -->
+          
+
+
+            <!-- ========================= SECTION: STYLES >> START ========================= -->
+            <section id="custom-posts">
+                <div class="page-header" id="portfolio">
+                    <h1>Set Up Portfolio</h1>
+                </div>
+				
+
+				<div class="alert alert-success"> <a class="close" data-dismiss="alert">×</a>There is a custom portfolio post type included with AvaLance, you can find it in the main navigation after activating the plugin.</div>
+
+				
+				<hr />
+            
+			
+                <div class="row" id="video-reviews">
+					<div class="span12">
+						<h3>Create Portfolio Section</h3>
+						<p>First you need to create a new page at Pages <strong>&gt;</strong> Add New and set the page <strong>Template</strong> to <span class="label label-primary">Portfolio</span>. The title will show up as the section's title, and you can add content if you wish.</p>						
+						</p>					
+						<br />
+					</div>	
+					
+					<div class="span12">
+					<br /><br /><br />
+						<h3>Creating Filters</h3>
+						<p>Go to Portfolio <strong>&gt;</strong> Filters and enter a name, slug (URL friendly name) for the filter, and in the <strong>Description</strong> field add your icon's name ( <a href="http://fontawesome.io/icons">icon reference</a> ), and finally hit <span class="label label-info">Add New Filter</span>.
+						</p>					
+						<br />
+					<img class="desc-img" src="assets/img/16.jpg" />     						
+					</div>					
+					<div class="span12">
+					<br /><br /><br />
+						<h3>Adding Portfolio Items</h3>
+						<p>After activating the custom portfolio post type plugin, go to Portfolio <strong>&gt;</strong> Add New and enter a title for the project and upload a <strong>featured image</strong> (480x296px is optional), then set a filter for it from the newly created filters, add tags if you wish and hit <span class="label label-info">Publish</span>.
+						</p>		
+						<img class="desc-img" src="assets/img/17.jpg" />     						
+						<br />
+					</div>
+					<div class="span12">
+					<br /><br /><br />
+						<h3>Portfolio Details Page</h3>
+						<p>For every portfolio item you can create a custom portfolio details page by adding content to the portfolio item's editor. That content will show up when the portfolio item thumbnail is clicked. You can add any content you wish or included shortcodes like clients shortcode etc.
+						</p>	
+						<h5>Creating Tablet Slider</h5>
+						<ol>
+						<li>Change to <strong>Text editor</strong> and click <span class="label label-info">Add Media</span> button</li>
+						<li>In the pop up window select <strong>Create Gallery</strong> and select your uploaded images for the tablet slider (720x514px optional)</li>
+						<li>Hit <span class="label label-info">Create New Gallery</span> and then <span class="label label-info">Insert Gallery</span></li>
+						<li>In the gallery's shortcode, add this: <code>size="full"</code></li>
+						</ol>
+						<br />
+						<p>Finally your gallery's shortcode should look something like this: <code>[gallery columns="1" link="none" size="full" ids="106,107,108"]</code></p>
+						<br /><br />
+						<img class="desc-img" src="assets/img/18.jpg" />     						
+						<br />
+					</div>
+
+
+                </div>
+				
+
+				
+				
+				
+				
+				
+				
+
+			</section>
+
+
+
+			
+			
+			
+			
+			
+			
+            <section id="content-editing">
+                <div class="page-header">
+                    <h1>Content Editing</h1>
+                </div>
+				
+
+				<div class="alert alert-success"> <a class="close" data-dismiss="alert">×</a>Beside custom posts and sections on the home page, you can create individual pages for your contents.</div>
+
+				
+				<hr />
+
+                <div class="row" id="creating-pages">
+					<div class="span12">
+						<h3>Creating Pages</h3>
+						<p>To create an individual page navigate to Pages <strong>&gt;</strong> Add New and set the page <strong>Template</strong> to <span class="label label-primary">Page</span>. Add the title for the page, add content for it (i will get on the available shortcodes in the next section) and click <span class="label label-info">Publish</span> to create your new page.</p>  
+						<p></p>
+					</div>
+                </div>
+				<div class="alert alert-info"> <b>Note:</b> If you would like to add your page in the main navigation, you have to set the menu item to <strong>Custom</strong> and add the link manually. Read more about this in the Menus section.</div>					
+				<br />
+				<hr />
+		
+
+                <div class="row" id="shortcodes">
+					<div class="span12">
+						<h3>Shortcodes</h3>
+						<p>AvaLance has some shortcodes to make content editing easier. In the following you can see the available shortcodes with a short explanation and a code sample what you can just paste in your editor in <strong>Text</strong> view.</p>  
+						<p></p>
+					</div>
+				</div>
+				
+				
+				
+				<div class="row">
+				<br />
+				<hr />					
+					<div class="span3">
+						<h4>Columns Shortcode</h4>
+						<p>AvaLance is based on the Skeleton Grid system, it has 16 columns by default. You can easily add columns to your content, just take a look at the code sample of the usuage.</p>
+						<p>It is recommended to put everything in these columns if you are editing your own content, for example an individual page.</p>
+					</div>
+					<div class="span9">
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint">
+[column width="1/2"]This is the first half column[/column]
+[column width="1/2"]This is the second half column[/column]
+</pre>
+<!-- Code Block >> End --> 		
+				<p><strong>Width options:</strong></p>
+				<ul>
+				<li>1, full</li>
+				<li>1/2, eight</li>
+				<li>1/3, one-third</li>
+				<li>1/4, one-fourth</li>
+				<li>five, six, seven etc.</li>
+				</ul>
+					</div>
+                </div>			
+				<br />			
+				
+				
+				
+				<div class="row">
+				<br />
+				<hr />					
+					<div class="span3">
+						<h4>Lead Shortcode</h4>
+						<p>The lead shortcode is the center-aligned introduction, what can be seen under the section titles in my demo.</p>
+					</div>
+					<div class="span9">
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint">
+[lead]Lorem ipsum dolor sit amet consescetur elit adipiscin massa[/lead]
+</pre>
+<!-- Code Block >> End --> 					
+					</div>
+                </div>			
+				<br />
+				
+				<div class="row">
+				<br />
+				<hr />					
+					<div class="span3">
+						<h4>Divider Shortcode</h4>
+						<p>The divider shortcode is a 1px full width solid grey divider, it can be used for separating different content sections.</p>
+					</div>
+					<div class="span9">
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint">
+[divider]
+</pre>
+<!-- Code Block >> End --> 					
+					</div>
+                </div>			
+				<br />				
+
+				
+				<div class="row">
+				<br />
+				<hr />					
+					<div class="span3">
+						<h4>Titles Shortcode</h4>
+						<p>You can define titles for your content from a variety of h1-h6 tags. You can see the theme demo's Shortcodes section for reference of the headlines layout.</p>
+					</div>
+					<div class="span9">
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint">
+[title type="h2"]This is a h2 headline[/title]
+</pre>
+<!-- Code Block >> End --> 
+				<p><strong>Type Options:</strong></p>
+				<ul>
+				<li>h1, h2, h3, h4, h5, h6</li>
+				</ul>					
+					</div>
+                </div>			
+				<br />
+				<hr />				
+				
+				
+
+				<div class="row">
+				<br />
+				<hr />					
+					<div class="span3">
+						<h4>Button Shortcode</h4>
+						<p>You can easily add buttons with this shortcode, just set the size and URL for the button.</p>
+						<p>If you leave every settings blank (except the src of course), by default the button is medium sized.</p>
+					</div>
+					<div class="span9">
+<!-- Code Block >> Start -->                   
+<pre class="prettyprint">
+[button size="large" src="http://www.link.com"]Click Me[/button]
+</pre>
+<!-- Code Block >> End --> 
+				<p><strong>Button Options:</strong></p>
+				<ul>
+				<li>Size: small, medium, large</li>
+				<li>Color: colored, light, dark</li>
+				<li>Src: your url</li>
+				</ul>					
+					</div>
+                </div>			
+				<br />
+				<hr />	
+
+
+				
+				
+				
+                <div class="row" id="menus">
+					<div class="span12">
+						<h3>Menus</h3>
+						<p>AvaLance is using WP 3.0 custom menus, to create your own navigate to Appearance <strong>&gt;</strong> Menus and click <strong>create new menu</strong>. Add any title to your menu you want (e.g.: custom menu) and add your existing pages from the left, and set the <em>menu settings</em> below the menu to <strong>Top Primary Menu</strong> and hit <span class="label label-info">Save Menu</span>.</p>  
+<br />
+						<img src="assets/img/19.jpg" class="desc-img" />
+						<br /><br /><br />
+						<p>If you created a separate page, you can add it to your navigation by choosing the <strong>Link</strong> dropdown section, and entering the URL of your individual page. See the screenshot below:</p>
+						<br />
+						<img src="assets/img/20.jpg" class="desc-img" />
+					</div>
+                </div>
+				<br />				
+				<br />
+				<hr />				
+		
+		
+		
+			</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		  
+ 
+
+		</div>
+        
+ 
+
+        <!-- CREDITS >> START -->
+        <div class="modal hide fade" id="changelog" tabindex="-1" role="dialog" aria-labelledby="changelog-label" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="changelog-label">Changelog</h3>
+            </div>
+            <div class="modal-body">
+<!-- Code Block >> Start -->                   
+<pre>
+v1.0 = 2013-11-10
+	Initial Release
+</pre>
+<!-- Code Block >> End --> 
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+        <!-- CREDITS >> END -->
+
+
+ 
+        <!-- CREDITS >> START -->
+        <div class="modal hide fade" id="credits" tabindex="-1" role="dialog" aria-labelledby="credits-label" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="credits-label">Credits</h3>
+            </div>
+            <div class="modal-body">
+                <p>I've used the following images, icons or other files as listed.</p>
+				<h3>JavaScript</h3>
+				<ol>
+				  <li><a href="http://jquery.com/">jQuery</a></li>
+				  <li><a href="http://jquery.malsup.com/cycle2/">jQuery Cycle 2</a></li>   		  
+				  <li><a href="https://github.com/imakewebthings/jquery-waypoints">jQuery Waypoints</a></li>
+				  <li><a href="https://github.com/mhuggins/jquery-countTo">jQuery CountTo</a></li>		
+				  <li><a href="http://rocha.la/jQuery-slimScroll">jQuery SlimScroll</a></li>
+				  <li><a href="https://github.com/kswedberg/jquery-smooth-scroll">jQuery SmoothScroll</a></li>
+				<li><a href="https://github.com/mathiasbynens/jquery-placeholder">jQuery Placeholder</a></li>				  
+				  <li><a href="https://github.com/johndyer/mediaelement">MediaElement.js</a></li>			  
+				</ol>
+				<h3>CSS</h3>
+				<ol>
+				  <li><a href="http://www.getskeleton.com/">Skeleton</a></li>
+				  <li><a href="https://github.com/daneden/animate.css">Animate</a></li>          
+				</ol>
+				<h3>Fonts</h3>
+				<ol>
+				  <li><a href="http://www.google.com/fonts/">Google Webfonts</a></li>
+				  <li><a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a></li>          
+				</ol>		
+				<h3>Images</h3>
+				<ol>	
+				  <li><a href="http://www.shutterstock.com">Shutterstock</a></li>		  
+				</ol>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            </div>
+        </div>
+        <!-- CREDITS >> END -->
+
+        <!-- loading javascripts -->
+		<script src="assets/js/jquery.js"></script> 
+        <script src="assets/js/bootstrap.min.js"></script>
+        <script src="assets/js/google-code-prettify/prettify.js"></script>
+        
+        <!-- init javascripts -->
+        <script src="assets/js/init.js"></script>
+		
+		<div class="container">
+		
+			<div class="span12">
+			<br />
+			        <p>Once again, thank you so much for purchasing this theme. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the themes on ThemeForest, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+					
+			<hr />
+			</div>
+			
+			
+			
+		  <footer class="span12" style="text-align: center !important;">
+			  <div class="rate">
+			  <h4>If you like this template, please rate!</h4>
+			  <p>You can rate this template where you downloaded it on Themeforest!</p>
+			  
+			  <img src="assets/img/stars.png" />
+			  <br />
+		  </div>
+		  <br />
+			<p>&copy; eriktailor 2013</p>
+		  </footer>			
+		
+		</div>
+         
+    </body>
+    
+</html>

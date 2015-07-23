@@ -1,0 +1,103 @@
+/* Template: AvaLanche | Author: eriktailor | Version: 1.0  */
+/*----------------------------------------------------------*/
+
+/* -------------------------------- */
+/* # Green Skin */
+/* -------------------------------- */
+
+
+.sticky {border: 3px dashed #2dcc70;}
+.post ul li:before, .comments ul li:before {color: #2dcc70;}
+
+/* Section Titles */
+.section-title {color: #2dcc70;}
+
+/* Titles */
+.h1, .h2, .h3, .h4, .h5, .h6 {color: #2dcc70;}
+
+/* Text Links */
+a:hover, a:focus { color: #2dcc70;}
+
+/* Menu item hover */
+#menu a:hover {color: #2dcc70;}
+
+/* Button */
+.ava-btn {background: #2dcc70;}
+
+/* Mobile menu icon */
+.mobile-menu .icon {color: #2dcc70;}
+
+/* List Color */
+.ava-list ul li:before{color:  #2dcc70;}
+
+/* Widget Title */
+.widget-title {color: #2dcc70;}
+
+/* Widget Links */
+.widget a:hover {text-decoration: underline; color:#2dcc70; }
+
+/* Comments */
+#commentform #submit {background: #2dcc70;}
+
+/* Comments Title */
+#respond h3 {color: #2dcc70;}
+
+/* 404 Button */
+#fourohfour .btn {background: #2dcc70;}
+
+/* Portfolio Item */
+.portfolio-item-title span {color: #2dcc70;}
+.portfolio-item:hover {background: #2dcc70;}
+.portfolio-item-title span {color: #2dcc70;}
+
+/* Portfolio Filtering */
+.option-set a:hover .icon {color: #2dcc70; }
+.option-set a:hover .filter-title {color: #2dcc70;}
+.option-set a:hover .icon {box-shadow: 0 0 0 8px #2dcc70;}
+.option-set a:hover .icon {box-shadow: 0 0 0 7px #2dcc70; color: #2dcc70;}
+
+/* Team Member active */
+.team-member:hover, .team-member-active {border: 15px solid #2dcc70;}
+.memberProfile {background: #2dcc70;}
+.bullet {background: url("../../img/bullet_green.png");}
+
+/* Our Process details */
+.processInfo {background: #2dcc70;}
+
+/* Service Item */
+.service-item:hover {background: #2dcc70;}
+.service-item-title span {color: #2dcc70;}
+.service-item:hover .icon {color: #2dcc70;}
+
+/* Testimonials Slider controls */
+.prev:hover .icon, .next:hover .icon {color: #2dcc70;}
+
+/* Blog Item */
+.blog-item-title .line-1 {background: #2dcc70;}
+.blog-article-intro {background: rgba(45,204,112,0.9);}
+
+/* Contact */
+.contact-title {color: #2dcc70;}
+.small-button {background: #2dcc70;}
+.map-title {color: #2dcc70;}
+.office-info.right a {color: #2dcc70;}
+.contact-info .icon {color: #2dcc70;}
+
+/* Footer */
+#footer {background: #2dcc70;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

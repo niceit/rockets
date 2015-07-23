@@ -1,0 +1,102 @@
+/* Template: AvaLanche | Author: eriktailor | Version: 1.0  */
+/*----------------------------------------------------------*/
+
+/* -------------------------------- */
+/* # Cold Skin */
+/* -------------------------------- */
+
+.sticky {border: 3px dashed #77C4BC;}
+.post ul li:before, .comments ul li:before {color: #77C4BC;}
+
+/* Section Titles */
+.section-title {color: #77C4BC;}
+
+/* Titles */
+.h1, .h2, .h3, .h4, .h5, .h6 {color: #77C4BC;}
+
+/* Text Links */
+a:hover, a:focus { color: #77C4BC;}
+
+/* Menu item hover */
+#menu a:hover {color: #77C4BC;}
+
+/* Mobile menu icon */
+.mobile-menu .icon {color: #77C4BC;}
+
+/* List Color */
+.ava-list ul li:before{color: #77C4BC;}
+
+/* Button */
+.ava-btn {background: #77C4BC;}
+
+/* Widget Title */
+.widget-title {color: #77C4BC;}
+
+/* Widget Links */
+.widget a:hover {text-decoration: underline; color: #77C4BC;}
+
+/* Portfolio Item */
+.portfolio-item-title span {color: #77C4BC;}
+.portfolio-item:hover {background: #77C4BC;}
+.portfolio-item-title span {color: #77C4BC;}
+
+/* Comments */
+#commentform #submit {background: #77C4BC;}
+
+/* Comments Title */
+#respond h3 {color: #77C4BC;}
+
+/* 404 Button */
+#fourohfour .btn {background: #77C4BC;}
+
+/* Portfolio Filtering */
+.option-set a:hover .icon {color: #77C4BC; }
+.option-set a:hover .filter-title {color: #77C4BC;}
+.option-set a:hover .icon {box-shadow: 0 0 0 8px #77C4BC;}
+.option-set a:hover .icon {box-shadow: 0 0 0 7px #77C4BC; color: #77C4BC;}
+
+/* Team Member active */
+.team-member:hover, .team-member-active {border: 15px solid #77C4BC;}
+.memberProfile {background: #77C4BC;}
+.bullet {background: url("../../img/bullet_cold.png");}
+
+/* Our Process details */
+.processInfo {background: #77C4BC;}
+
+/* Service Item */
+.service-item:hover {background: #77C4BC;}
+.service-item-title span {color: #77C4BC;}
+.service-item:hover .icon {color: #77C4BC;}
+
+/* Testimonials Slider controls */
+.prev:hover .icon, .next:hover .icon {color: #77C4BC;}
+
+/* Blog Item */
+.blog-item-title .line-1 {background: #77C4BC;}
+.blog-article-intro {background: rgba(119,196,188,0.9);}
+
+/* Contact */
+.contact-title {color: #77C4BC;}
+.small-button {background: #77C4BC;}
+.map-title {color: #77C4BC;}
+.office-info.right a {color: #77C4BC;}
+.contact-info .icon {color: #77C4BC;}
+
+/* Footer */
+#footer {background: #77C4BC;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+/* Template: AvaLanche | Author: eriktailor | Version: 1.0  */
+/*----------------------------------------------------------*/
+
+/* -------------------------------- */
+/* # Blue Skin */
+/* -------------------------------- */
+
+.sticky {border: 3px dashed #5BAAE2;}
+.post ul li:before, .comments ul li:before {color: #5BAAE2;}
+
+/* Section Titles */
+.section-title {color: #5BAAE2;}
+
+/* Titles */
+.h1, .h2, .h3, .h4, .h5, .h6 {color: #5BAAE2;}
+
+/* Text Links */
+a:hover, a:focus { color: #5BAAE2;}
+
+/* Menu item hover */
+#menu a:hover {color: #5BAAE2;}
+
+/* Button */
+.ava-btn {background: #5BAAE2;}
+
+/* Mobile menu icon */
+.mobile-menu .icon {color: #5BAAE2;}
+
+/* List Color */
+.ava-list ul li:before{color:  #5BAAE2;}
+
+/* Widget Title */
+.widget-title {color: #5BAAE2;}
+
+/* Widget Links */
+.widget a:hover {text-decoration: underline; color:#5BAAE2; }
+
+/* Comments */
+#commentform #submit {background: #5BAAE2;}
+
+/* Comments Title */
+#respond h3 {color: #5BAAE2;}
+
+/* 404 Button */
+#fourohfour .btn {background: #5BAAE2;}
+
+/* Portfolio Item */
+.portfolio-item-title span {color: #5BAAE2;}
+.portfolio-item:hover {background: #5BAAE2;}
+.portfolio-item-title span {color: #5BAAE2;}
+
+/* Portfolio Filtering */
+.option-set a:hover .icon {color: #5BAAE2; }
+.option-set a:hover .filter-title {color: #5BAAE2;}
+.option-set a:hover .icon {box-shadow: 0 0 0 8px #5BAAE2;}
+.option-set a:hover .icon {box-shadow: 0 0 0 7px #5BAAE2; color: #5BAAE2;}
+
+/* Team Member active */
+.team-member:hover, .team-member-active {border: 15px solid #5BAAE2;}
+.memberProfile {background: #5BAAE2;}
+.bullet {background: url("../../img/bullet_blue.png");}
+
+/* Our Process details */
+.processInfo {background: #5BAAE2;}
+
+/* Service Item */
+.service-item:hover {background: #5BAAE2;}
+.service-item-title span {color: #5BAAE2;}
+.service-item:hover .icon {color: #5BAAE2;}
+
+/* Testimonials Slider controls */
+.prev:hover .icon, .next:hover .icon {color: #5BAAE2;}
+
+/* Blog Item */
+.blog-item-title .line-1 {background: #5BAAE2;}
+.blog-article-intro {background: rgba(91,170,226,0.9);}
+
+/* Contact */
+.contact-title {color: #5BAAE2;}
+.small-button {background: #5BAAE2;}
+.map-title {color: #5BAAE2;}
+.office-info.right a {color: #5BAAE2;}
+.contact-info .icon {color: #5BAAE2;}
+
+/* Footer */
+#footer {background: #5BAAE2;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

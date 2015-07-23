@@ -1,0 +1,23 @@
+[gallery columns="1" link="none" size="full" ids="179"]
+
+[column width="2/3" place="first"][title type="h2"]Project description[/title]<strong>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis porta ligula quis facilisis. Nullam ut tortor et mi lobortis ornare. Nunc feugiat quis lacus sed convallis. </strong>
+
+<p>In ac tortor nulla. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fermentum rhoncus dui, nec gravida est ultricies eget. Donec pellentesque auctor ipsum, convallis rhoncus nisi porttitor eget. Suspendisse ut egestas sem. Suspendisse scelerisque commodo lectus. Donec accumsan tellus sed magna euismod ornare. Sed at lacus suscipit, laoreet lectus eu, laoreet massa. Curabitur turpis leo, malesuada nec luctus nec, aliquet et ante. Vivamus sit amet dapibus enim. Nullam blandit tellus enim, nec volutpat ante vehicula sit amet. In eleifend aliquam vestibulum. Aenean in odio.</p>
+
+[button size="large" src="#"]Go to Site[/button][/column] [column width="1/3" place="last"][title type="h2"]Featuring[/title][list]
+<ul>
+	<li>Ipsum dolor sit amet elit</li>
+	<li>Vel dignissim facilisis</li>
+	<li>Integer orci ligula etiam</li>
+	<li>Ut eros mi, placerat non</li>
+	<li>Morbi sed ullamcorper eta</li>
+	<li>Praesent nec auctor urna</li>
+</ul>
+[/list][/column] [divider] [clients]
+<ul>
+	<li><img title="client_01" alt="" src="http://eriktailor.com/showcase/client_01.png" /></li>
+	<li><img title="client_02" alt="" src="http://eriktailor.com/showcase/client_01.png" /></li>
+	<li><img title="client_03" alt="" src="http://eriktailor.com/showcase/client_01.png" /></li>
+	<li><img title="client_04" alt="" src="http://eriktailor.com/showcase/client_01.png" /></li>
+</ul>
+[/clients]

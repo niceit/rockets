@@ -1,0 +1,106 @@
+/* Template: AvaLanche | Author: eriktailor | Version: 1.0  */
+/*----------------------------------------------------------*/
+
+/* -------------------------------- */
+/* # Warm Skin */
+/* -------------------------------- */
+
+.sticky {border: 3px dashed #D76B00;}
+.post-password-form input[type="submit"] {background: #D76B00;}
+.single .post ul li:before, .single .comments ul li:before, .single .post h1, .single .post h2, .single .post h3, .single .post h4, .single .post h5, .single .post h6, 
+.single .comments h1, .single .comments h2, .single .comments h3, .single .comments h4, .single .comments h5, .single .comments h6, #page-links, #page-links a:hover, 
+.comment-reply-link {color: #D76B00;}
+.post blockquote, .comments blockquote {border-left: 2px solid #D76B00;}
+
+/* Section Titles */
+.section-title {color: #D76B00;}
+
+/* Titles */
+.h1, .h2, .h3, .h4, .h5, .h6 {color: #D76B00;}
+
+/* Text Links */
+a:hover, a:focus { color: #D76B00;}
+
+/* Menu item hover */
+#menu a:hover {color: #D76B00;}
+
+/* Button */
+.ava-btn {background: #D76B00;}
+
+/* Mobile menu icon */
+.mobile-menu .icon {color: #D76B00;}
+
+/* List Color */
+.ava-list ul li:before{color:  #D76B00;}
+
+/* Widget Title */
+.widget-title {color: #D76B00;}
+
+/* Widget Links */
+.widget a:hover {text-decoration: underline; color:#D76B00; }
+
+/* Comments */
+#commentform #submit {background: #D76B00;}
+
+/* Comments Title */
+#respond h3 {color: #D76B00;}
+
+/* 404 Button */
+#fourohfour .btn {background: #D76B00;}
+
+/* Portfolio Item */
+.portfolio-item-title span {color: #D76B00;}
+.portfolio-item:hover {background: #D76B00;}
+.portfolio-item-title span {color: #D76B00;}
+
+/* Portfolio Filtering */
+.option-set a:hover .icon {color: #D76B00; }
+.option-set a:hover .filter-title {color: #D76B00;}
+.option-set a:hover .icon {box-shadow: 0 0 0 8px #D76B00;}
+.option-set a:hover .icon {box-shadow: 0 0 0 7px #D76B00; color: #D76B00;}
+
+/* Team Member active */
+.team-member:hover, .team-member-active {border: 15px solid #D76B00;}
+.memberProfile {background: #D76B00;}
+.bullet {background: url("../../img/bullet_warm.png");}
+
+/* Our Process details */
+.processInfo {background: #D76B00;}
+
+/* Service Item */
+.service-item:hover {background: #D76B00;}
+.service-item-title span {color: #D76B00;}
+.service-item:hover .icon {color: #D76B00;}
+
+/* Testimonials Slider controls */
+.prev:hover .icon, .next:hover .icon {color: #D76B00;}
+
+/* Blog Item */
+.blog-item-title .line-1 {background: #D76B00;}
+.blog-article-intro {background: rgba(215,107,0,0.9);}
+
+/* Contact */
+.contact-title {color: #D76B00;}
+.small-button {background: #D76B00;}
+.map-title {color: #D76B00;}
+.office-info.right a {color: #D76B00;}
+.contact-info .icon {color: #D76B00;}
+
+/* Footer */
+#footer {background: #D76B00;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

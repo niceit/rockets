@@ -1,0 +1,102 @@
+/* Template: AvaLanche | Author: eriktailor | Version: 1.0  */
+/*----------------------------------------------------------*/
+
+/* -------------------------------- */
+/* # Red Skin */
+/* -------------------------------- */
+
+.sticky {border: 3px dashed #E64A3B;}
+.post ul li:before, .comments ul li:before {color: #E64A3B;}
+
+/* Section Titles */
+.section-title {color: #E64A3B;}
+
+/* Titles */
+.h1, .h2, .h3, .h4, .h5, .h6 {color: #E64A3B;}
+
+/* Text Links */
+a:hover, a:focus { color: #E64A3B;}
+
+/* Menu item hover */
+#menu a:hover {color: #E64A3B;}
+
+/* Button */
+.ava-btn {background: #E64A3B;}
+
+/* Mobile menu icon */
+.mobile-menu .icon {color: #E64A3B;}
+
+/* List Color */
+.ava-list ul li:before{color:  #E64A3B;}
+
+/* Widget Title */
+.widget-title {color: #E64A3B;}
+
+/* Widget Links */
+.widget a:hover {text-decoration: underline; color:#E64A3B; }
+
+/* Comments */
+#commentform #submit {background: #E64A3B;}
+
+/* Comments Title */
+#respond h3 {color: #E64A3B;}
+
+/* 404 Button */
+#fourohfour .btn {background: #E64A3B;}
+
+/* Portfolio Item */
+.portfolio-item-title span {color: #E64A3B;}
+.portfolio-item:hover {background: #E64A3B;}
+.portfolio-item-title span {color: #E64A3B;}
+
+/* Portfolio Filtering */
+.option-set a:hover .icon {color: #E64A3B; }
+.option-set a:hover .filter-title {color: #E64A3B;}
+.option-set a:hover .icon {box-shadow: 0 0 0 8px #E64A3B;}
+.option-set a:hover .icon {box-shadow: 0 0 0 7px #E64A3B; color: #E64A3B;}
+
+/* Team Member active */
+.team-member:hover, .team-member-active {border: 15px solid #E64A3B;}
+.memberProfile {background: #E64A3B;}
+.bullet {background: url("../../img/bullet_red.png");}
+
+/* Our Process details */
+.processInfo {background: #E64A3B;}
+
+/* Service Item */
+.service-item:hover {background: #E64A3B;}
+.service-item-title span {color: #E64A3B;}
+.service-item:hover .icon {color: #E64A3B;}
+
+/* Testimonials Slider controls */
+.prev:hover .icon, .next:hover .icon {color: #E64A3B;}
+
+/* Blog Item */
+.blog-item-title .line-1 {background: #E64A3B;}
+.blog-article-intro {background: rgba(230,74,59,0.9);}
+
+/* Contact */
+.contact-title {color: #E64A3B;}
+.small-button {background: #E64A3B;}
+.map-title {color: #E64A3B;}
+.office-info.right a {color: #E64A3B;}
+.contact-info .icon {color: #E64A3B;}
+
+/* Footer */
+#footer {background: #E64A3B;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
